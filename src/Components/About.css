@@ -1,0 +1,304 @@
+/* part1 */
+.font {
+    color: #5c7565;
+}
+
+.bear {
+    color: #b5b5b5;
+}
+
+.text-decoration-none {
+    color: black;
+}
+
+/* .card-body h5 a:hover{
+    letter-spacing: 0.5px;
+    transition: all .5s;
+} */
+.card-body:hover h5 a {
+    letter-spacing: 0.5px;
+    transition: all .5s;
+}
+
+.korn:hover {
+    background: black;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-family: "DM Sans";
+}
+
+.crist {
+    margin-top: 5px;
+    float: right;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+.icon svg {
+    height: 20px;
+    width: 18px;
+}
+
+.icon {
+    margin-top: 5px;
+    float: right;
+}
+
+.icon svg {
+    fill: #f6b76f;
+    transition: 0.5s;
+}
+
+.icon svg:hover {
+    background-color: black;
+}
+
+/* ================part2================== */
+
+.sale {
+    background-color: #7fbc1e;
+    color: #fff;
+    float: left;
+}
+
+/* card1 */
+.image {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/2_9188d6ff-0644-4660-a251-4d0d51433c75_533x.png?v=1679284141');
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image:hover {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/3_aad9c139-a5e2-46da-b09a-f98b4af6120d_360x.png?v=1679284141');
+    transition: all 3s;
+}
+
+/* .rate{
+   position: absolute;
+} */
+.image-col .rate {
+    position: absolute;
+    bottom: 35%;
+    margin-left: 75px;
+}
+
+.tost {
+    font-size: 18px;
+}
+
+.tost span {
+    text-decoration: line-through;
+    color: #b2b2b1;
+}
+
+.color_swatch {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.color_swatch .swatch-label.active {
+    border: 1px solid #232323;
+}
+
+.color_swatch .swatch-label {
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    letter-spacing: 0;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    padding: 2px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+@media (max-width: 991px) {
+    .variants-swatch .color-box {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+.color-box {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: block;
+    background-position: center;
+}
+
+.color_swatch .swatch-label .tool-tip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    background: black;
+    line-height: 22px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 0;
+    left: 50%;
+    transform: translate(-50%);
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    white-space: nowrap;
+    transition: .5s;
+}
+
+.color_swatch .swatch-label {
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    letter-spacing: 0;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    padding: 2px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+@media (max-width: 991px) {
+    .variants-swatch .color-box {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+/* card2 */
+.dest {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/3_964ef98c-b632-4a5e-a040-cc1806846876_165x.png?v=1679284416');
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.dest:hover {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/4_004c6a4c-ff05-46e5-afe6-67b46ea1d599_360x.png?v=1679284416');
+    transition: all 3s;
+}
+
+/* card3 */
+.deal {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/9_b2efdb2c-b550-42a1-865f-1eb37819ad28_533x.png?v=1679285383');
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.deal:hover {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/10_0ec4549b-3e69-494c-a44e-3721056c1b5d_533x.png?v=1679285383');
+    transition: all 3s;
+}
+
+.feat {
+    padding-bottom: 55px;
+}
+
+/* card4 */
+.dost {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/1_091d0b15-b264-4fdc-b89f-a2e389e68b4b_533x.png?v=1679055946');
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dost:hover {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/18_2830861d-eb89-45a9-9d84-91c19202b670_533x.png?v=1679055946');
+    transition: all 3s;
+}
+
+/* card5 */
+.flat{
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/4_004c6a4c-ff05-46e5-afe6-67b46ea1d599_360x.png?v=1679284416');
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.flat:hover {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/5_7cc4653d-332d-427b-9fcd-87a69123f6de_533x.png?v=1679284667');
+    transition: all 3s;
+}
+
+/* card6 */
+.gist {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/16_20cf8fdb-3f60-4410-8129-63fb844a2fb0_533x.png?v=1679285525');
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gist:hover {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/11_b68ad577-0632-4870-b159-6fefb30ac117_533x.png?v=1679285526');
+    transition: all 3s;
+
+}
+
+.goat {
+    float: right;
+    margin-right: 10px;
+    background-color: red;
+}
+
+/* card7 */
+.crit {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/13_1e1ffaed-9c0b-49a2-8b97-7ec9ef128453_533x.png?v=1679285455');
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.crit:hover {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/10_d9d786d5-c5eb-4fd5-b75d-3d59ff0ca14b_533x.png?v=1679285455');
+    transition: all 3s;
+
+}
+
+/* card8 */
+.disk {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/7_9fe46ed4-7e3e-479d-ab74-92baf89db6f6_533x.png?v=1679285186');
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.disk:hover {
+    background-image: url('https://creative-ishi.myshopify.com/cdn/shop/products/8_d8d32992-6e26-405c-9192-66f822dab5b3_533x.png?v=1679285186');
+    transition: all 3s;
+}
+
+.nike{
+    background-color: #f6b76f;
+    border: none;
+    color: #232323;
+}
+.nike:hover{
+    background-color: #556f5f;
+}
+/* part3 */

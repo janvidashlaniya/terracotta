@@ -1,0 +1,43 @@
+.boest{
+    background-color: #fef7ec;
+}
+
+.stork{
+    background-color: #fcfcfc;
+    /* width: 80%; */
+    border-radius: 30px;
+
+}
+/* .stork .stork-col a img{
+    margin-top: -25%;
+} */
+
+ 
+
+.font{
+text-align: left;
+}
+/* part2 */
+.tiest{
+    font-size: 40px;
+    text-align: left;
+}
+.joj{
+    color: #627a6b;
+}
+.domt{
+    text-align: left;
+}
+.domt p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #888;
+}
+.jok{
+    text-align: left;
+}
+.card{
+    margin-left: 30px;
+}
+

@@ -1,0 +1,172 @@
+/* card9 */
+.mosm {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/14_0ca427fa-71e4-4b43-b68d-6071003f6bcd_360x.png?v=1679285763);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mosm:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/15_b6cba1e5-2afe-49f5-b7ec-626330cae1d8.png?v=1679285764);
+    transition: all 3s;
+
+}
+
+/* card10 */
+.momt {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/15_b6cba1e5-2afe-49f5-b7ec-626330cae1d8.png?v=1679285764);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.momt:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/11_06e4cd3f-03d9-4ce1-b0f8-7ffd0bcc7d77.png?v=1679285615);
+    transition: all 3s;
+}
+
+/* card11 */
+.pear {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/12_1159adbb-7a70-4660-bdaf-a0cd0fcd931d.png?v=1679285696);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pear:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/13_1e1f7e18-ba0d-472b-a411-4115257e37fd.png?v=1679285696);
+    transition: all 3s;
+}
+
+/* card12 */
+.fly {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/8_07fe1974-bcb3-4a18-857d-eb4bcfc0fc9d.png?v=1679285289);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fly:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/9_ab829d4d-73e5-403d-a9ed-f9647134e554.png?v=1679285289);
+    transition: all 3s;
+}
+
+/* card13 */
+.woad {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/18_63ca3275-99ce-4a79-808e-d0ec36ea70fe.png?v=1679285963);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.woad:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/6_6c6b2fcd-5cef-4a82-a827-6ce497457f69.png?v=1679285964);
+    transition: all 3s;
+}
+
+/* card14 */
+.kote {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/5_7f0a42ea-ac9b-4b23-81a9-26db2dc670ce_360x.png?v=1679284815);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.kote:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/6_04bf971c-898e-4adf-bf76-33bd35872ccd.png?v=1679284815);
+    transition: all 3s;
+}
+
+/* card15*/
+.dote {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/19_81c2aa98-459c-44cd-b352-711e58a39ea1_360x.png?v=1679286089);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.dote:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/20_b9c499ba-b994-47d2-b2c5-03ca1eda9d7e.png?v=1679286089);
+    transition: all 3s;
+}
+
+/* card16 */
+.voat {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/6_302a3e57-0965-4537-b369-3eb0f96dff9b_360x.png?v=1679285055);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.voat:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/7_54d37fb8-b60e-4aa9-81d2-1a730ccdc972.png?v=1679285055);
+    transition: all 3s;
+}
+
+/* card17 */
+.voite {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/3_70cc3e4d-296f-4abc-9ecc-9dfdef3b641f.png?v=1679284898);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.voite:hover {
+    transition: all 3s;
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/4_f09a2aa9-5ffe-4626-956b-3c8af85e01d2.png?v=1679284897);
+}
+
+/* card18 */
+.leat {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/11_7f98ef22-bc5e-44ea-8f8d-ef865b4fb03f.png?v=1679286161);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.leat:hover {
+    background-image: url(https://creative-ishi.myshopify.com/cdn/shop/products/12_ac332849-edb7-422c-aada-5924f90a23ae.png?v=1679286161);
+    transition: all 3s;
+
+}
+
+/* button */
+.custom-navigation {
+    margin-top: 40px;
+
+}
+
+.custom-navigation .custom-next-button {
+    margin-left: 15px;
+    border-radius: 30px;
+}
+.custom-navigation .custom-prev-button {
+    border-radius: 200rem;
+}
+/* company logo */
+.logo-col{
+padding: 20px;
+box-shadow: 2px 2px 16px -11px  #0000008c;
+border-radius: 50%;
+margin: 15px;
+cursor: pointer;
+
+}
+.logo-col img:hover{
+    transition: all 3s;
+    transform: rotateY(360deg);
+}

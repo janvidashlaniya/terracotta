@@ -1,0 +1,10 @@
+.faq-image{
+    margin-right: 100px;
+}
+.faq-image  img{
+    transition: transform 1.5s ease-in-out;
+}
+.faq-image:hover img {
+    transform: scale(1.1);
+
+}

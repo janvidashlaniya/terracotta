@@ -1,0 +1,110 @@
+/*header */
+.header {
+    background-color: #556f5f;
+    color: #fff;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-basis: auto;
+}
+
+.col-md-3 .email {
+    /* justify-content: end; */
+    text-align: end;
+}
+
+.col-md-4 {
+    text-align: start;
+}
+
+/* navbar */
+.collapse {
+    margin-left: 340px;
+}
+
+.monj a {
+    text-decoration: none;
+}
+.monj{
+    text-align: end;
+}
+.menu3 .most:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 10%;
+}
+
+.menu3 .most:hover::after {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.host {
+    width: 150%;
+    margin-left: 0%;
+}
+
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    /* .navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; } */
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+}
+
+  section {
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    /* height: 80vh; */
+    overflow: hidden;
+    /* margin-top: 10rem; */
+  }
+  .wavey {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background: url(https://creative-ishi.myshopify.com/cdn/shop/files/wave-pattern_copy.png?v=1680605126);
+    background-size: 800px 80px;
+    background-repeat: repeat-x;
+    background-color: #fff;
+  }
+  
+  section .wavey.wave1 {
+    animation: wavey 20s cubic-bezier(.36, .45, .63, .53) infinite
+  }
+  
+  @keyframes wavey {
+    0% {
+      background-position-x: 0;
+    }
+  
+    100% {
+      background-position-x: -1000px;
+    }
+  }

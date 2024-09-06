@@ -1,0 +1,35 @@
+footer {
+    position: relative;
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.wave-container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -7px; /* Adjusts the overlap of the wave with the footer */
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wave-animation use {
+    animation: move-forever 10s linear infinite;
+}
+
+@keyframes move-forever {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-200px); }
+}
+
+.footer-content {
+    padding: 20px;
+}

@@ -1,0 +1,153 @@
+
+@media (min-width: 1200px) {
+    .banner-block {
+        margin-top: 120px;
+        margin-bottom: 105px;
+    }
+}
+.banner-block .page-width {
+    max-width: 1500px;
+}
+.page-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.banner-block .banner {
+    padding: 70px 0;
+}
+@media (min-width: 992px) {
+    .banner-block .page-width .row {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.banner-block .banner-right, .ishi-banner .banner-block .banner-left, .ishi-banner .banner-block .banner-disc {
+    width: 33.3333%;
+}
+.banner-block .banner-right .image-container-right, .ishi-banner .banner-block .banner-left .image-container-left {
+    display: flex;
+    position: absolute;
+    bottom: -50px;
+}
+.banner-block .banner-right .banner-right-img, .banner-block .banner-left .banner-left-img {
+    padding: 0 15px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.banner-block .banner-right .banner-right-img .banner-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 3px 43px -18px rgb(0 0 0 / 15%);
+}
+.banner-block .banner-right .banner-right-img img, .banner-block .banner-left .banner-left-img img {
+    transition: all 3s ease;
+    -webkit-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+.lazyloaded {
+    opacity: 1;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+@media (min-width: 992px) {
+    .banner-block .banner-right .banner-right-img2 {
+        bottom: 20px;
+    }
+}
+.banner-block .banner-disc {
+    width: 33.3333%;
+}
+.center {
+    text-align: center !important;
+}
+.banner-block .section-header .sub-title {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color:#556f5f;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.banner-block .section-header>h2 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    color: #222;
+    font-family: var(--font-title-family);
+    text-transform: unset;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.banner-block .section-header .Discription {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    color: #888888;
+    width: 100%;
+    margin: auto auto 23px;
+}
+a.btn {
+    border-radius: 30px;
+}
+
+.spat {
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #556f5f;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.nike{
+    background-color: #f6b76f;
+    border: none;
+    color: #232323;
+}
+.nike:hover{
+    background-color: #556f5f;
+}
+.banner-block .banner-left .image-container-left {
+    top: -50px;
+    right: 0;
+}
+.banner-block .banner-left .image-container-left {
+    display: flex;
+    position: absolute;
+    bottom: -50px;
+}
+@media (min-width: 992px) {
+    .banner-block .banner-left .banner-left-img2 {
+        top: 20px;
+    }
+}
+.banner-block .banner-left .banner-left-img .banner-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 3px 43px -18px rgb(0 0 0 / 15%);
+}
+.banner-img  img{
+    transition: transform 1.5s ease-in-out;
+
+}
+.banner-img:hover img{
+    transform: scale(1.1);
+
+}

@@ -1,0 +1,32 @@
+.faq {
+    width: 85%;
+    margin-left: 100px;
+   margin-top: 50px;
+}
+
+.faq-item {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    text-align: left;
+    width: 80%;
+}

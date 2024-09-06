@@ -1,0 +1,180 @@
+footer {
+  padding: 5rem;
+  background-color: #e5ede9;
+
+}
+
+.nest {
+  color: #647967;
+  margin-top: 1rem;
+}
+
+.input .input_field {
+  width: 70%;
+  height: 8vh;
+  border: none;
+  border-radius: 2rem;
+  padding-left: 1rem;
+}
+
+.jost {
+  position: absolute;
+  margin-top: -2.8rem;
+  margin-left: 9rem;
+  background-color: #f5b66e;
+}
+
+.f1 {
+  background-color: #3b5999;
+
+}
+
+.f1:hover {
+  background-color: #f5b66e;
+
+}
+
+.f1 .fa-brands {
+  color: #fff;
+}
+
+.f1 .fa-brands:hover {
+  color: #000000;
+}
+
+.insta {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.f2 {
+  background-color: #cc2366;
+}
+
+.f3 {
+  background-color: black;
+}
+
+.f4 {
+  background-color: #3b5999;
+}
+
+.tiktok {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.snapchat {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.vimeo {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.f5 {
+  background-color: #00aced;
+}
+
+/* waves */
+.footer section {
+  z-index: 0;
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  overflow: hidden;
+  margin-top: 10rem;
+}
+
+.footer .wavey {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background: url(https://creative-ishi.myshopify.com/cdn/shop/files/wave-pattern_copy.png?v=1680605126);
+  background-size: 800px 80px;
+  background-repeat: repeat-x;
+  background-color: #fff;
+}
+
+.footer section .wavey.wave1 {
+  animation: wavey 20s cubic-bezier(.36, .45, .63, .53) infinite
+}
+
+@keyframes wavey {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+/* wave 2 */
+
+.footer .wavey2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  opacity: 0.5;
+  background: url(https://creative-ishi.myshopify.com/cdn/shop/files/wave-pattern_copy.png?v=1680605126);
+  /* background-size: 800px 80px; */
+  background-repeat: repeat-x;
+  /* background-color: #fff; */
+}
+
+.footer section .wavey2.wave2 {
+  animation: wavey2 10s cubic-bezier(.36, .45, .63, .53) infinite
+}
+
+@keyframes wavey2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+ul li {
+  list-style-type: none;
+
+}
+
+ul li a {
+  text-decoration: none;
+
+
+}
+
+/* ul li{
+    text-align: start;
+} */
+/* .nioes_col{
+   margin-right: 6rem;
+} */
+.nioes h5 {
+  text-align: start;
+  color: #647967;
+
+}
+
+ul li {
+  text-align: start;
+}
+ul li a{
+  color: #647967;
+}
+ul li a:hover{
+  color:  #f5b66e;
+}
+ul {
+  padding-inline-start: 0px;
+}

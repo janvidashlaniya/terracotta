@@ -1,0 +1,89 @@
+/*carousel  */
+.fost {
+    background-color: #e5efe9;
+}
+
+.mlki-col .canvas {
+    color: #f3bd7c;
+}
+
+.mlki-col .canvas1 {
+    font-size: 76px;
+    color: #556f5f;
+}
+
+.mlki-col .canvas2 {
+    font-size: 17px;
+}
+
+.gost .mlki-col {
+    margin-top: 10%;
+}
+
+.btn1 {
+    margin-right: -30px;
+    margin-left: 30%;
+
+}
+
+.btn1 .btn {
+    background-color: #ffffff;
+    color: black;
+    padding-right: 30px;
+    border: none;
+}
+
+.btn2 .btn {
+    background-color: #556f5f;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+.btn1 .btn:hover {
+    background-color: #f3bd7c;
+}
+
+.btn2 .btn:hover {
+    background-color: #f3bd7c;
+}
+
+#mlki {
+    background-color: #bbc9d2;
+}
+
+.hero section {
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    /* height: 90vh; */
+    overflow: hidden;
+}
+
+/* waves */
+.hero .fost .wavey {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background: url("../../src/assests/wave-pattern_copy_1.png");
+    background-size: 800px 80px;
+    background-repeat: repeat-x;
+    /* background-color: #000; */
+}
+
+.hero .fost .wavey.wave1 {
+    animation: wavey 20s cubic-bezier(.36, .45, .63, .53) infinite
+}
+
+@keyframes wavey {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: -1000px;
+    }
+}

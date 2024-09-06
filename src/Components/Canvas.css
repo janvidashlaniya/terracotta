@@ -1,0 +1,141 @@
+html {
+   overflow-x: hidden;
+}
+
+:root {
+   --brand-secondary: #556f5f;
+}
+
+.story-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-column-gap: 10px;
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-top: 100px;
+   position: relative;
+}
+
+.story-container:before {
+   content: '';
+   position: absolute;
+   background-image: url('https://creative-ishi.myshopify.com/cdn/shop/files/since-line.png?v=1682664702');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 87%;
+   height: 50%;
+   top: -36%;
+   background-position: center center;
+   background-size: contain;
+   right: 0;
+   left: 0;
+   margin: 0 auto;
+}
+
+.story-container .story-since {
+   position: relative;
+   text-align: center;
+}
+
+.story-container .story-since .since {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 22px;
+   letter-spacing: 0.2px;
+   color: var(--brand-secondary);
+   text-align: center;
+   top: -41px;
+   left: -46%;
+   right: 0;
+   cursor: pointer;
+}
+
+.story-container .story-since {
+   text-align: center;
+}
+
+.story-container .story-since .since:before {
+   content: "";
+   display: block;
+   height: 11px;
+   width: 11px;
+   border-radius: 100%;
+   border: 1px solid #556F5F;
+   text-align: center;
+   margin: 0 auto 10px;
+   background-color: #FFFFFF;
+   cursor: pointer;
+}
+
+.story-container .storyblock-img {
+   text-align: center;
+   margin-top: 23px;
+   cursor: pointer;
+   overflow: hidden;
+   display: inline-block;
+   border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+   .story-container .storyblock-img img {
+      transition: all 3s ease;
+      -webkit-transition: all 3s ease;
+      -o-transition: all 3s ease;
+      -ms-transition: all 3s ease;
+      overflow: hidden;
+   }
+}
+
+.lazyloaded {
+   opacity: 1;
+}
+
+img {
+   max-width: 100%;
+   vertical-align: middle;
+}
+
+.story-container .storyblock-img {
+   text-align: center;
+   cursor: pointer;
+}
+
+.story-container .story-since #since_2:before,
+.story-container .story-since #since_4:before {
+   order: 2;
+   margin: 13px auto 0;
+}
+
+.story-container .story-since #since_2 {
+   order: 1;
+   top: -57px;
+   left: 0;
+}
+
+.story-container .story-since #since_3 {
+   top: -42px;
+   left: 0;
+}
+
+.story-container .story-since #since_4 {
+   order: 1;
+   top: -68px;
+   right: -46%;
+   left: 0;
+}
+.storyblock-img  img{
+   /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    /* width: 100%;
+    height: 100%; */
+    /* object-fit: cover; */
+    transition: transform 1.5s ease-in-out;
+}
+.story-since .storyblock-img:hover img{
+   transform: scale(1.1);
+}
